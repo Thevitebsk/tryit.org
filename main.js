@@ -1,6 +1,6 @@
 function lang(){
-  lang = document.getElementById("l").value
-  if (lang == "ti! (placeholderlang)") { ti() }
+  l = document.getElementById("l").value
+  if (l == "ti! (placeholderlang)") { ti() }
 }
 function ti() {
   o=""
