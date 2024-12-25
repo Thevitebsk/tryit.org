@@ -5,6 +5,6 @@ function langs(){
 function ti() {
   o = ""
   c = document.getElementById("c").value
-  if (c == "ti!") { o += "Hello, world!\n" }
+  if (c == "ti!") { o += "Hello, world!\n" } else { o += "[]\n" }
   document.getElementById("o").innerHTML = "output:<br>" + o
 }
