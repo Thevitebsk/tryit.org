@@ -6,5 +6,5 @@ function ti() {
   o = ""
   c = document.getElementById("c").value
   if (c == "ti!") { o += "Hello, world!\n" }
-  document.getElementById("o").innerHTML = "output:\n" + o
+  document.getElementById("o").innerHTML = "output:<br>" + o
 }
