@@ -1,4 +1,4 @@
-function lang(){
+function langs(){
   l = document.getElementById("l").value
   if (l == "ti! (placeholderlang)") { ti() }
 }
