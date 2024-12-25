@@ -4,7 +4,7 @@ function lang(){
 }
 function ti() {
   o = ""
-  c = document.getElementById("code").value
+  c = document.getElementById("c").value
   if (c == "ti!") { o += "Hello, world!\n" }
-  document.getElementById("output").innerHTML = "output:\n" + o
+  document.getElementById("o").innerHTML = "output:\n" + o
 }
