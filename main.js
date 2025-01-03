@@ -7,6 +7,7 @@ function langs() {
   document.getElementById("o").innerHTML = "output:<br>" + o
 }
 function ti() {
-  if (c == "ti!") { o += "Hello, world!\n" } else { o += "[]\n" }
+  if (c == "ti!") { o += "Hello, world!\n" } 
+  else { o += "[]\n" }
 }
 function track() { o = "incomplete!" }
