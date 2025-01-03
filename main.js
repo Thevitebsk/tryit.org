@@ -10,4 +10,4 @@ function ti() {
   if (c == "ti!") { o += "Hello, world!\n" } 
   else { o += "[]\n" }
 }
-function track() { o = "incomplete!" }
+function track() { o = "Language is currently incomplete\n" }
