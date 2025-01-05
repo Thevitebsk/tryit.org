@@ -12,7 +12,6 @@ function ti() {
 }
 function pam() {
   a = b = 0
-  o = "Implementation is currently incomplete\n"
   while (p<c.lenght){
          if (c[p]=="+") {a++}
     else if (c[p]=="*") {a,b=a,b}
