@@ -16,7 +16,7 @@ function pam() {
          if (c[p]=="+") {a++}
     else if (c[p]=="*") {a,b=a,b}
     else if (c[p]=="-") {a--}
-    else if (c[p]=="a") {o += a + "\n"}
-    else if (c[p]=="b") {o += b + "\n"}
+    else if (c[p]=="a") {o += a+"\n"}
+    else if (c[p]=="b") {o += b+"\n"}
   }
 }
