@@ -3,14 +3,14 @@ function langs() {
   l = document.getElementById("l").value
   c = document.getElementById("c").value
   if (l == "ti! (placeholderlang)") { ti() }
-  else if (l == "+*-") { pam() }
+  else if (l == "+*-") { paml() }
   document.getElementById("o").innerHTML = "output:<br>" + o
 }
 function ti() {
   if (c == "ti!") { o += "Hello, world!\n" } 
   else { o += "[]\n" }
 }
-function pam() {
+function paml() {
   a = b = 0
   while (p<c.lenght){
          if (c[p]=="+") {a++}
