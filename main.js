@@ -18,5 +18,6 @@ function paml() {
     else if (c[p]=="-") {a--}
     else if (c[p]=="a") {o += a+" "}
     else if (c[p]=="b") {o += b+" "}
+    p++
   }
 }
