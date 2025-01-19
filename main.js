@@ -12,7 +12,7 @@ function ti() {
 }
 function paml() {
   a = b = 0
-  while (p<c.lenght){
+  while (p<c.length){
          if (c[p]=="+") {a++}
     else if (c[p]=="*") {a,b=a,b}
     else if (c[p]=="-") {a--}
