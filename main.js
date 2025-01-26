@@ -4,7 +4,7 @@ function langs() {
   c = document.getElementById("c").value
   if (l == "ti! (placeholderlang)") { ti() }
   else if (l == "+*-") { paml() }
-  document.getElementById("o").innerHTML = "output:<br>" + o
+  perma();document.getElementById("o").innerHTML = "output:<br>" + o
 }
 function ti() {
   if (c == "ti!") { o += "Hello, world!\n" } 
