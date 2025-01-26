@@ -25,4 +25,5 @@ function perma() {
   code=encodeURIComponent(document.getElementById("c").value).replaceAll("=", "_").replaceAll("+", "@").replaceAll("/", "$")
   input=encodeURIComponent(document.getElementById("i").value).replaceAll("=", "_").replaceAll("+", "@").replaceAll("/", "$")
   lang=encodeURIComponent(document.getElementById("l").value).replaceAll("=", "_").replaceAll("+", "@").replaceAll("/", "$")
+  document.getElementById("p").innerHTML = "permalink:<br>" + code + input + lang
 }
