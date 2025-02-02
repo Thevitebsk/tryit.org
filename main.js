@@ -7,8 +7,8 @@ function langs() {
   perma();document.getElementById("o").innerHTML = "output:<br>" + o
 }
 function ti() {
-  if (c == "ti!") { o += "Hello, world!\n" } 
-  else { o += "[]\n" }
+  if (c == "ti!") { o = "Hello, world!\n" } 
+  else { o = "[]\n" }
 }
 function paml() {
   a = b = tv = 0
@@ -20,4 +20,7 @@ function paml() {
     else if (c[p]=="b") { o += b + " " }
     p++
   }
+}
+function six() {
+  o = "6"
 }
