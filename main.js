@@ -2,8 +2,9 @@ function langs() {
   o = "" ; p = 0
   l = document.getElementById("l").value
   c = document.getElementById("c").value
-  if (l == "ti! (placeholderlang)") { ti() }
+  if (l == "ti!") { ti() }
   else if (l == "+*-") { paml() }
+  else if (l == "6") { six() }
   perma();document.getElementById("o").innerHTML = "output:<br>" + o
 }
 function ti() {
@@ -22,5 +23,5 @@ function paml() {
   }
 }
 function six() {
-  o = "6"
+  o = "6\n"
 }
