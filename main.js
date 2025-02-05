@@ -5,7 +5,7 @@ function langs() {
   if (l == "ti!") { ti() }
   else if (l == "+*-") { paml() }
   else if (l == "6") { six() }
-  perma();document.getElementById("o").innerHTML = "output:<br>" + o
+  document.getElementById("o").innerHTML = "output:<br>" + o
 }
 function ti() {
   if (c == "ti!") { o = "Hello, world!\n" } 
