@@ -22,6 +22,4 @@ function paml() {
     p++
   }
 }
-function six() {
-  o = "6\n"
-}
+function six() { o = "6\n" }
