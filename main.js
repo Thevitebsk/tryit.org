@@ -23,3 +23,4 @@ function paml() {
   }
 }
 function six() { o = "6\n" }
+function len() { o = c.length + "bytes" }
