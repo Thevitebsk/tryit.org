@@ -23,4 +23,5 @@ function paml() {
   }
 }
 function six() { o = "6\n" }
-function len() { o = c.length + "bytes" }
+function len() { document.getElementById("b").innerHTML = c.length + " bytes" }
+len()
