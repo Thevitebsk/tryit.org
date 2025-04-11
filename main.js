@@ -3,7 +3,7 @@ function langs() {
   l = document.getElementById("l").value
   c = document.getElementById("c").value
   //if (l == "ti!") { ti() } will be replaced later
-  /*el*/se if (l == "+*-") { paml() }
+  /*else*/ if (l == "+*-") { paml() }
   else if (l == "6") { six() }
   document.getElementById("o").innerHTML = "output:<br>" + o
 }
