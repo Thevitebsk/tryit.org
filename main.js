@@ -22,5 +22,8 @@ function paml() {
     p++
   }
 }
+function bool1() {
+  s=[]
+}
 function six() { o = "6\n" }
 function len() { document.getElementById("b").innerHTML = " " + document.getElementById("c").value.length + " bytes" }
