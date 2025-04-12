@@ -2,7 +2,7 @@ function langs() {
   o = "" ; p = 0
   l = document.getElementById("l").value
   c = document.getElementById("c").value
-  if (l == "true") { bool1() } will be replaced later
+  if (l == "true") { bool1() }
   if (l == "+*-") { paml() }
   else if (l == "6") { six() }
   document.getElementById("o").innerHTML = "output:<br>" + o
